@@ -7,7 +7,7 @@ namespace Yorozu.GoogleDriveHelper.SpreadSheet
 {
 	public class GoogleSpreadSheetApi
 	{
-		private static readonly string SPREAD_SHEET_SHARE_GET_URL = "https://docs.google.com/spreadsheets/d/{0}/gviz/tq?tqx=out:csv&sheet=\'{1}\'";
+		private static readonly string SPREAD_SHEET_SHARE_GET_URL = "https://docs.google.com/spreadsheets/d/{0}/gviz/tq?tqx=out:csv&sheet={1}";
 		private static readonly string SPREAD_SHEETS_GET_URL = "https://sheets.googleapis.com/v4/spreadsheets/{0}";
 		private static readonly string SPREAD_SHEET_GET_URL = "https://sheets.googleapis.com/v4/spreadsheets/{0}/values/{1}";
 		private static readonly string SPREAD_SHEET_POST_URL = "https://sheets.googleapis.com/v4/spreadsheets/{0}/values/{1}:append?valueInputOption=RAW";
